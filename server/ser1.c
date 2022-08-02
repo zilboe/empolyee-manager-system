@@ -1,4 +1,4 @@
-#include "/home/linux/xiangmu/hqyj-xiangmu1/head.h"
+#include "../head.h"
 
 void register_ser(int socketfd, sqlite3 *db, MSG_T *msg)
 {
