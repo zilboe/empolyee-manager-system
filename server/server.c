@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
     bzero(&server_addr, sizeof(server_addr));
     server_addr.sin_family = AF_INET;
     server_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
-    server_addr.sin_port = htons(atoi("8889"));
+    server_addr.sin_port = htons(atoi("8888"));
 
     if (bind(socketfd, (struct sockaddr *)&server_addr, sizeof(server_addr)))
         PRINT_ERR("fail to bind");
