@@ -1,4 +1,4 @@
-#include "/home/linux/xiangmu/hqyj-xiangmu1/head.h"
+#include "../head.h"
 void do_modify_name(MSG_T *msg);
 void chose_moder(void)
 {
