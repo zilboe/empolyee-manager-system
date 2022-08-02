@@ -1,4 +1,4 @@
-#include "/home/linux/xiangmu/hqyj-xiangmu1/head.h"
+#include "../head.h"
 
 MSG_T msg;
 int main(int argc, char *argv[])
